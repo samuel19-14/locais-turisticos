@@ -3,13 +3,25 @@
     margin-inline: auto;
 
     header {
-        border-radius: 2.8rem;
-        margin-bottom: 2.4rem;
-        height: 66rem;
+
+        img{  
+            border-radius: 2.8rem;
+            margin-bottom: 2.4rem;
+            height: 66rem;
+        }    
+            
+        
+
+        p {
+            font-style: italic;
+            text-align: center;
+        }
     }
 
-    p{
-        font-style: italic;
-        text-align: center;
+    .divider {
+        height: 1px;
+        background-color: var(--border-primary);
+        margin-block: 4rem;
+        
     }
 }
